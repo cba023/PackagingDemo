@@ -245,6 +245,7 @@
 		9A5C6D4624DD589500BEBCA0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = NO;
 				LastSwiftUpdateCheck = 1160;
 				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = juzix;
@@ -948,7 +949,7 @@
 				9A5C6D8524DD59B300BEBCA0 /* Release_DEV */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Release_DEV;
 		};
 		9A5C6D7824DD589C00BEBCA0 /* Build configuration list for PBXNativeTarget "PackagingDemo" */ = {
 			isa = XCConfigurationList;
@@ -959,7 +960,7 @@
 				9A5C6D8624DD59B300BEBCA0 /* Release_DEV */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Release_DEV;
 		};
 		9A5C6D7B24DD589C00BEBCA0 /* Build configuration list for PBXNativeTarget "PackagingDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -970,7 +971,7 @@
 				9A5C6D8724DD59B300BEBCA0 /* Release_DEV */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Release_DEV;
 		};
 		9A5C6D7E24DD589C00BEBCA0 /* Build configuration list for PBXNativeTarget "PackagingDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -981,7 +982,7 @@
 				9A5C6D8824DD59B300BEBCA0 /* Release_DEV */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Release_DEV;
 		};
 /* End XCConfigurationList section */
 	};
