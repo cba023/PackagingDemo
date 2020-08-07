@@ -14,17 +14,12 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         
         #if PACKAGINGDEMO_DEV
         self.view.backgroundColor = .red
         #else
         self.view.backgroundColor = .green
         #endif
-        
-        
     }
-
-
 }
 
