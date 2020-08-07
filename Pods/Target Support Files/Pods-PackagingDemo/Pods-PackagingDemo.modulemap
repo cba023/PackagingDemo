@@ -1,0 +1,6 @@
+framework module Pods_PackagingDemo {
+  umbrella header "Pods-PackagingDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
