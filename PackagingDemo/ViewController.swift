@@ -11,14 +11,17 @@ import UIKit
 class ViewController: UIViewController {
 
     
+    @IBOutlet weak var titleLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         #if PACKAGINGDEMO_DEV
         self.view.backgroundColor = .red
+        self.titleLabel.text = "DEV"
         #else
         self.view.backgroundColor = .green
+        self.titleLabel.text = "PROD"
         #endif
     }
 }
